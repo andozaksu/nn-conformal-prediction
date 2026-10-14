@@ -16,7 +16,7 @@ Conformal prediction wraps a classifier so that, instead of returning a single l
 4. **p-values:** for each test point and each candidate label, the point is added to the training set with that label, all scores are recomputed, and the p-value is the proportion of examples at least as nonconforming as the new one.
 5. **Average false p-value:** the mean p-value assigned to the *wrong* classes. Lower is better, because it means the predictor rarely finds incorrect labels plausible.
 
-## 📊 Results
+## 📊 Results (DATA)
 
 Stratified 75/25 train-test split, with a fixed random seed for reproducibility.
 

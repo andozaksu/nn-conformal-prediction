@@ -2,8 +2,6 @@
 
 A 1-Nearest Neighbour classifier and a conformal predictor, both implemented from scratch in NumPy and evaluated on the Iris and Ionosphere datasets.
 
-📓 [View the notebook](nn_conformal_prediction.ipynb)
-
 ## 📌 Overview
 
 Conformal prediction wraps a classifier so that, instead of returning a single label, it returns a **p-value for every possible class**. A low p-value for a class means the new example looks unusual for that class. This project builds the whole pipeline by hand: the distance calculations, the 1-NN classifier, the conformity scores and the p-values.
